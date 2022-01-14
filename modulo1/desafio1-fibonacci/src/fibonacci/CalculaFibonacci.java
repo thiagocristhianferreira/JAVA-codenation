@@ -1,5 +1,6 @@
 package fibonacci;
 
+import java.util.Arrays;
 import java.util.ArrayList;
 
 public class CalculaFibonacci {
@@ -17,5 +18,13 @@ public class CalculaFibonacci {
             }
         }
         return sequencia;
+    }
+
+    public boolean verificar(Integer num) {
+        ArrayList sequencia = calcular();
+
+        boolean val = sequencia.contains(num);
+
+        return val;
     }
 }
