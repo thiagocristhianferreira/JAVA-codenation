@@ -9,6 +9,8 @@ public class Calcular {
     public String encriptar(String frase) {
         String fraseEncriptada = "";
 
+        frase = frase.toLowerCase();
+
         for (int i = 0; i < frase.length(); i++) {
             String letra = String.valueOf(frase.charAt(i));
             if (letra.equals("x")) {
