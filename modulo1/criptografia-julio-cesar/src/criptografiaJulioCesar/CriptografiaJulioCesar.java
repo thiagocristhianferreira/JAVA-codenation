@@ -2,7 +2,7 @@ package criptografiaJulioCesar;
 
 public class CriptografiaJulioCesar {
     public static void main(String[] args) {
-        String frase = "encriptar e decriptar washington zeus xis";
+        String frase = "ENCRIPTAR E DESENCRIPTAR washington zeus xis";
         System.out.println("Frase para encriptar: " + frase);
         System.out.println();
 
